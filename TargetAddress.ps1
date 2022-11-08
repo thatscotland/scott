@@ -1,0 +1,1 @@
+﻿Get-aduser -filter {targetAddress -like "*.com"} -properties * | Select-Object Name, targetaddress | Out-File C:\powershell\exports\moretarget.csv
